@@ -15,23 +15,11 @@
 
     <script>
         var MyLocationsFile = "./MyLocations.kml";
-        var allText ;
-              var rawFile = new XMLHttpRequest();
-               rawFile.open("GET", MyLocationsFile, false);
-                  rawFile.onreadystatechange = function ()
-                  {
-                      if(rawFile.readyState === 4)
-                      {
-                          if(rawFile.status === 200 || rawFile.status == 0)
-                          {
-                               allText = rawFile.responseText;
-                               alert(allText);
-                          }
-                      }
-                  }
-                rawFile.send(null);
 
+        localStorage.setItem("MyLocationsFile",JSON.stringify(MyLocationsFile));
+        var MyFile = JSON.parse(localStorage.getItem("MyLocationsFile"));
 
+        console.log(MyFile);
        var layer = new ol.layer.Tile({
         source: new ol.source.OSM()
        });
@@ -50,7 +38,7 @@
 
         var ee = new ol.layer.Vector({
             source: new ol.source.Vector({
-            url: allText,
+            url: MyLocationsFile,
             format: new ol.format.KML()
           })
         })
