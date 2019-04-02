@@ -16,10 +16,10 @@
     <script>
         var MyLocationsFile = "./MyLocations.kml";
 
-        localStorage.setItem("MyLocationsFile",JSON.stringify(MyLocationsFile));
-        var MyFile = JSON.parse(localStorage.getItem("MyLocationsFile"));
+        localStorage.setItem("MyLocations",JSON.stringify(MyLocationsFile));
+        var Locations = JSON.parse(localStorage.getItem("MyLocations"));
 
-        console.log(MyFile);
+        console.log(Locations);
 
        var layer = new ol.layer.Tile({
         source: new ol.source.OSM()
@@ -39,7 +39,7 @@
 
         var ee = new ol.layer.Vector({
             source: new ol.source.Vector({
-            url: MyLocationsFile,
+            url: Locations,
             format: new ol.format.KML()
           })
         })
