@@ -15,7 +15,7 @@
 
     <script>
         var MyLocationsFile = "./MyLocations.kml";
-
+        var allText ;
               var rawFile = new XMLHttpRequest();
                rawFile.open("GET", MyLocationsFile, false);
                   rawFile.onreadystatechange = function ()
@@ -24,7 +24,7 @@
                       {
                           if(rawFile.status === 200 || rawFile.status == 0)
                           {
-                              var allText = rawFile.responseText;
+                               allText = rawFile.responseText;
                           }
                       }
                   }
