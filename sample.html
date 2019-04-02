@@ -15,11 +15,11 @@
 
     <script>
         var MyLocationsFile = "./MyLocations.kml";
-
+        var Locations = null;
         if(localStorage.getItem("MyLocations") === null){
           console.log("Local Storage does not Have MyLocations.kml file");
           localStorage.setItem("MyLocations",JSON.stringify(MyLocationsFile));
-          var Locations = JSON.parse(localStorage.getItem("MyLocations"));
+          Locations = JSON.parse(localStorage.getItem("MyLocations"));
           console.log("Storing the MyLocations Coordinates data to localStorage for the first time the file is loaded.");
           alert("Storing the MyLocations Coordinates data to localStorage for the first time the file is loaded.");
         }
