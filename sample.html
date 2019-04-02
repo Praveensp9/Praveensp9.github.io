@@ -25,10 +25,11 @@
                           if(rawFile.status === 200 || rawFile.status == 0)
                           {
                                allText = rawFile.responseText;
+                               alert(allText);
                           }
                       }
                   }
-                  //rawFile.send(null);
+                rawFile.send(null);
 
 
        var layer = new ol.layer.Tile({
