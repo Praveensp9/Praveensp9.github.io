@@ -27,7 +27,6 @@
           console.log("Hi.. Your localStorage has MyLocations Coordinates data,Hence directly reading the MyLocations Coordinates data from your browser localstorage..!!!");
         }
         var Locations = JSON.parse(localStorage.getItem("MyLocations"));
-        console.log(Locations);
 
        var layer = new ol.layer.Tile({
         source: new ol.source.OSM()
