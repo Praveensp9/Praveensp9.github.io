@@ -15,7 +15,6 @@
 
     <script>
         var MyLocationsFile = "./MyLocations.kml";
-
         localStorage.setItem("MyLocations",JSON.stringify(MyLocationsFile));
         var Locations = JSON.parse(localStorage.getItem("MyLocations"));
 
@@ -34,7 +33,7 @@
 
         var view = new ol.View({
           center: center,
-          zoom: 14
+          zoom: 15
         });
 
         var ee = new ol.layer.Vector({
