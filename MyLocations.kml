@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="z1">
+    <IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png</href></Icon></IconStyle>
+    </Style>
+          <Placemark>
+            <name>SGM LAB</name>
+            <styleUrl>#z1</styleUrl>
+            <description> This is the LAB in SGM where i work </description>
+            <Point>
+              <coordinates>-118.2889553,34.021377199999996</coordinates>
+            </Point>
+          </Placemark>
+
+          <Placemark>
+           <name> Manas Restaurant </name>
+           <styleUrl>#z1</styleUrl>
+           <description>This is the Indian Restaurant near my home</description>
+           <Point>
+             <coordinates>-118.291743,34.029041</coordinates>
+           </Point>
+          </Placemark>
+
+           <Placemark>
+            <name>My Home</name>
+            <styleUrl>#z1</styleUrl>
+            <description> This is the Place where I stay in Los angeles </description>
+            <Point>
+              <coordinates>-118.28619540000001,34.028623599999996</coordinates>
+            </Point>
+          </Placemark>
+
+
+           <Placemark>
+            <name> Ralps </name>
+            <styleUrl>#z1</styleUrl>
+            <description>Ralphs where I buy groceries for my home </description>
+            <Point>
+              <coordinates>-118.291060,34.033910</coordinates>
+            </Point>
+          </Placemark>
+
+           <Placemark>
+            <name> Exposition/Vermont </name>
+            <styleUrl>#z1</styleUrl>
+            <description> This is Exposition/Vermont Junction </description>
+            <Point>
+              <coordinates>-118.291696,34.018878</coordinates>
+            </Point>
+          </Placemark>
+
+           <Placemark>
+            <name> Vermont/Jefferson </name>
+            <styleUrl>#z1</styleUrl>
+            <description> This is Vermont/Jefferson Junction </description>
+            <Point>
+              <coordinates>-118.291199,34.025614</coordinates>
+            </Point>
+          </Placemark>
+
+           <Placemark>
+            <name> Jefferson/Figueroa </name>
+            <styleUrl>#z1</styleUrl>
+            <description> This is Jefferson/Figueroa Junction </description>
+            <Point>
+              <coordinates>-118.280323,34.022476</coordinates>
+            </Point>
+          </Placemark>
+
+           <Placemark>
+            <name> Figueroa/Exposition </name>
+            <styleUrl>#z1</styleUrl>
+            <description> This is Figueroa/Exposition Junction </description>
+            <Point>
+              <coordinates>-118.281695,34.019417</coordinates>
+            </Point>
+          </Placemark>
+
+           <Placemark>
+            <name> SAL </name>
+            <styleUrl>#z1</styleUrl>
+            <description> This is SAL Lab in USC </description>
+            <Point>
+              <coordinates>-118.289305,34.019567</coordinates>
+            </Point>
+          </Placemark>
+
+           <Placemark>
+            <name>Leavy Library</name>
+            <styleUrl>#z1</styleUrl>
+            <description> This is Leavy Library where I study during exams </description>
+            <Point>
+              <coordinates>-118.28257230000001,34.0217311</coordinates>
+            </Point>
+          </Placemark>
+
+           <Placemark>
+            <name>Viterbhi School</name>
+            <styleUrl>#z1</styleUrl>
+            <description> This is Viterbhi School of engineering in USC </description>
+            <Point>
+              <coordinates>-118.288785,34.020472</coordinates>
+            </Point>
+          </Placemark>
+
+           <Placemark>
+            <name> Trader Joes </name>
+            <styleUrl>#z1</styleUrl>
+            <description> This is Trader Joes in USC Village where i buy my daily stuffs for home </description>
+            <Point>
+              <coordinates>-118.284574,34.026031</coordinates>
+            </Point>
+          </Placemark>
+  </Document>
+</kml>
