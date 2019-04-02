@@ -21,23 +21,6 @@
 
         console.log(MyFile);
 
-
-              var allText ;
-              var rawFile = new XMLHttpRequest();
-               rawFile.open("GET", MyFile, false);
-                  rawFile.onreadystatechange = function ()
-                  {
-                      if(rawFile.readyState === 4)
-                      {
-                          if(rawFile.status === 200 || rawFile.status == 0)
-                          {
-                              var allText = rawFile.responseText;
-                              allText = rawFile.responseText;
-                          }
-                      }
-                  }
-
-
        var layer = new ol.layer.Tile({
         source: new ol.source.OSM()
        });
