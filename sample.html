@@ -16,9 +16,8 @@
     <script>
         var MyLocationsFile = "./MyLocations.kml";
 
-            function readTextFile(file)
-              {
-                  rawFile.open("GET", MyLocationsFile, false);
+              var rawFile = new XMLHttpRequest();
+               rawFile.open("GET", MyLocationsFile, false);
                   rawFile.onreadystatechange = function ()
                   {
                       if(rawFile.readyState === 4)
@@ -30,9 +29,6 @@
                       }
                   }
                   rawFile.send(null);
-              }
-              var rawFile = new XMLHttpRequest();
-              readTextFile();
 
 
        var layer = new ol.layer.Tile({
