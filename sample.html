@@ -34,12 +34,12 @@
 
         var view = new ol.View({
           center: center,
-          zoom: 12
+          zoom: 9
         });
 
         var ee = new ol.layer.Vector({
             source: new ol.source.Vector({
-            url: Locations,
+            url: MyLocationsFile,
             format: new ol.format.KML()
           })
         })
