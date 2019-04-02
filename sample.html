@@ -17,14 +17,14 @@
         var MyLocationsFile = "./MyLocations.kml";
 
         if(localStorage.getItem("MyLocations") === null){
-          console.log("Local Storage does not Have MyLocations.kml file");
+          console.log("Hi.. Your localStorage does not have MyLocations Coordinates data. ");
           localStorage.setItem("MyLocations",JSON.stringify(MyLocationsFile));
-          console.log("Storing the MyLocations Coordinates data to localStorage for the first time the file is loaded.");
-          alert("Storing the MyLocations Coordinates data to localStorage for the first time the file is loaded.");
+          console.log("Hi.. Your localStorage does not have MyLocations Coordinates data. Hence,storing the myLocations coordinates data into your localStorage for the first time as file is loaded on your browser.");
+          alert("Hi.. Your localStorage does not have MyLocations Coordinates data. Hence,storing the myLocations coordinates data into your localStorage for the first time as file is loaded on your browser.");
         }
         else{
-          alert("Local Storage have MyLocations.kml file, Hence directly reading the MyLocations Coordinates data from localstorage !!!");
-          console.log("Local Storage does have MyLocations.kml file, Hence directly reading the file from local storage !!!");
+          alert("Hi.. Your localStorage has MyLocations Coordinates data,Hence directly reading the MyLocations Coordinates data from your browser localstorage..!!!");
+          console.log("Hi.. Your localStorage has MyLocations Coordinates data,Hence directly reading the MyLocations Coordinates data from your browser localstorage..!!!");
         }
         var Locations = JSON.parse(localStorage.getItem("MyLocations"));
         console.log(Locations);
