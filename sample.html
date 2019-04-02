@@ -27,7 +27,6 @@
                           if(rawFile.status === 200 || rawFile.status == 0)
                           {
                               var allText = rawFile.responseText;
-                              alert(allText);
                           }
                       }
                   }
@@ -53,16 +52,16 @@
           zoom: 6
         });
 
-        // var ee = new ol.layer.Vector({
-        //     source: new ol.source.Vector({
-        //     url: './MyLocations.kml',
-        //     format: new ol.format.KML()
-        //   })
-        // })
+        var ee = new ol.layer.Vector({
+            source: new ol.source.Vector({
+            url: rawFile,
+            format: new ol.format.KML()
+          })
+        })
 
         var map = new ol.Map({
           target: document.getElementById('map'),
-          layers: [layer],
+          layers: [layer,ee],
           overlays: [overlay],
           view: view
         });
