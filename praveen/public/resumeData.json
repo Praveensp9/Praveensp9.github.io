@@ -1,0 +1,149 @@
+{
+  "main": {
+    "name":"Praveen Patil",
+    "occupation":"Software Developer",
+    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "image":"Praveen.jpg",
+    "bio":"I am currently a Masters Student at University of Southern California specializing in Data Science. I worked as a Software Developer at Cisco Systems,Inc for 2.5 years. Before joining Cisco i was working as data analytics intern at Cisco and Research intern at IBM. I did my undergraduate studies in Computer Science from M S Ramaiah Institute of Technology, Bangalore.Skilled in Python,C,Java and Algorithms. Since the time I was introduced to the world of Computer Science, I have been working on various technologies like JAVA, SQL, PYTHON, JAVASCRIPT, C, C++, R, Web technologies, Internet Of Things, and likewise. My aspiration is to be a full stack developer and I am looking forward to seeking a platform for the same",
+    "contactmessage":"Please feel free to reach out to me by shooting email below",
+    "email": "prvnsp9@gmail.com",
+    "phone": "+1 213-421-5418",
+    "address":{
+      "street":"1179 W 29th Street",
+      "city":"Los Angeles",
+      "state":"California",
+      "zip": "90007"
+    },
+    "resumedownload":"https://bit.ly/2Xm9WqE",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/praveensp.patil",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/prvnsp9",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/praveenpatil09/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/Praveensp9/",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"http://skype.com",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"University of Southern California",
+        "degree":"Masters in Computer Science (Data Science)",
+        "graduated":"December 2020",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"M S Ramaiah Institute of Technology",
+        "degree":"Computer Science",
+        "graduated":"June 2016",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work":[
+      {
+        "company":"Cisco Systems,Inc.",
+        "title":"Software Developer II ",
+        "years":"April 2018 - December 2018",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Cisco Systems,Inc.",
+        "title":"Software Developer I",
+        "years":"August 2016 - March 2018",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Cisco Systems,Inc.",
+        "title":"Data Analytics Intern",
+        "years":"January 2016 - June 2016",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"IBM,India.",
+        "title":"Cloud Research Intern",
+        "years":"May 2015 - August 2015",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"90%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"80%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"VueJs",
+        "level":"80%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"90%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Musically Connected",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  }
+}
