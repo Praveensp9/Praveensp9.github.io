@@ -1,3 +1,4 @@
+<span id="a">praveen@patil</span>:<span id="b">~</span><span id="c">$</span> cd Praveen/<!-- kjsdfhkjdhsfkjdshfkj -->About_Praveen<br/>
 <span id="a">praveen@patil</span>:<span id="b">~</span><span id="c">$</span> cat praveen.txt<br/><br/>
 Hi, I'm Praveen Patil.<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>I am a Master's Student in Computer Science with a concentration in Data Science at University of Southern California.</p><!-- qowifjqwoeijfoqweijfqweoifjqweofijqweoqwoijefoqwijefoijfqiwoefjj -->
 <p>I worked as Software Developer at Cisco Systems for 2.5 years and data Analytics Intern at Cisco. Here is link to my LinkedIn :  <a href="https://www.linkedin.com/in/praveenpatil09/" target="_blank">PraveenIn</a> and Github <a href="https://github.com/Praveensp9" target="_blank">PraveenGit</a>.</p><!- oqwipjefqwioefjwioqfjoiqwjfeioqwjefoi -->
