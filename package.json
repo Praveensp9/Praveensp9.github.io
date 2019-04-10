@@ -2,14 +2,14 @@
   "name": "praveen",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://praveensp9.github.io",
+  "homepage": "https://Praveensp9.github.io/my-website",
   "dependencies": {
     "jquery": "^3.3.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-ga": "^2.5.7",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8"
+    "react-scripts": "^2.1.8"
   },
   "scripts": {
     "start": "react-scripts start",
