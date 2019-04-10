@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-
+import React, { Component } from 'react'
 class Header extends Component {
   render() {
 
@@ -9,11 +8,12 @@ class Header extends Component {
       var description= this.props.data.description;
       var city= this.props.data.address.city;
       var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+        return <li key={network.name}><a href={network.url} target="_blank"><i className={network.className}></i></a></li>
       })
     }
 
     return (
+
       <header id="home">
 
       <nav id="nav-wrap">
@@ -24,18 +24,15 @@ class Header extends Component {
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
-	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
+	         <li><a className="smoothscroll" href="#resume">Education</a></li>
             <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
 
       </nav>
-
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
-            <hr />
+            <iframe id="myiframe" src="terminal.html"></iframe>
             <ul className="social">
                {networks}
             </ul>
@@ -45,7 +42,6 @@ class Header extends Component {
       <p className="scrolldown">
          <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
       </p>
-
    </header>
     );
   }

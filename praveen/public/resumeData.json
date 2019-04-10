@@ -2,9 +2,9 @@
   "main": {
     "name":"Praveen Patil",
     "occupation":"Software Developer",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description":"This is my website",
     "image":"Praveen.jpg",
-    "bio":"I am currently a Masters Student at University of Southern California specializing in Data Science. I worked as a Software Developer at Cisco Systems,Inc for 2.5 years. Before joining Cisco i was working as data analytics intern at Cisco and Research intern at IBM. I did my undergraduate studies in Computer Science from M S Ramaiah Institute of Technology, Bangalore.Skilled in Python,C,Java and Algorithms. Since the time I was introduced to the world of Computer Science, I have been working on various technologies like JAVA, SQL, PYTHON, JAVASCRIPT, C, C++, R, Web technologies, Internet Of Things, and likewise. My aspiration is to be a full stack developer and I am looking forward to seeking a platform for the same",
+    "bio":"I am a Master's Student in Computer Science with a concentration in Data Science at University of Southern California. I worked as a Software Developer at Cisco Systems,Inc. for 2.5 years gaining vast professional experience. I completed my undergraduate studies majoring in computer science from M S Ramaiah Institute of Technology,Bangalore.I worked as a data analytics intern at Cisco and Research intern at IBM. I work on technologies like JAVA,PYTHON,React,ML,C and likewise. I aspire to become a full stack developer with a concentration on Machine Learning and Artificial Intelligence.I am looking forward to seeking a platform for the same.",
     "contactmessage":"Please feel free to reach out to me by shooting email below",
     "email": "prvnsp9@gmail.com",
     "phone": "+1 213-421-5418",
@@ -38,7 +38,7 @@
       },
       {
         "name":"skype",
-        "url":"http://skype.com",
+        "url":"skype:live:prvnsp9_1?chat",
         "className":"fa fa-skype"
       }
     ]
@@ -116,34 +116,35 @@
     "projects": [
       {
         "title":"Musically Connected",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "category":"A platform where musicians can collaborate and form a community instantly",
+        "image":"lahacks.jpg",
+        "url":"https://devpost.com/software/musically-connected"
       },
       {
-        "title":"Fury Fighting Gear",
+        "title":"TACIT",
         "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "image":"tacit.jpg",
+        "url":"http://tacit.usc.edu"
       },
       {
         "title":"Resume Website",
         "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "image":"Resume.jpg",
+        "url":"https://praveensp9.github.io/"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"WebApp for college lab exams",
+        "category":"A Javascript and PHP based web application",
+        "image":"WebApp.jpg",
+        "url":"https://github.com/Praveensp9/WebApp-for-college-lab-exams"
+      },
+      {
+        "title":"Twitter data sentimental analysis",
+        "category":"A tool that performs sentimental analysis on people tweets using twitter api's",
+        "image":"original-thai-food.jpg",
+        "url":"https://github.com/Praveensp9/Twitter-sentimental-analysis"
       }
+
     ]
   }
 }
